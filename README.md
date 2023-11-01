@@ -6,9 +6,11 @@ Hello! Welcome to this very cool library for coding your ROBLOX 2D game. There a
 (Note that this is not out yet so please wait when we make the game for sale)
 
 Let's start setting up! You first have to get the most suitable version and set it up with `require()`. Easy, right?
-# Shapes
-This one is very easy, you just spawn a shape and set the color.
+# Examples
+You can spawn shapes, images and print text
 ```lua
-roblox.square(255, 255, 255, false)
+roblox.square("White Square", 255, 255, 255, false)
+roblox.newImage("Roblox2D Logo", "http://www.roblox.com/asset/?id=15228183036", false)
+roblox:print("Text", "Hi!! :D", 255, 255, 255, false, Enum.Font.PatrickHand)
 ```
-The numbers mean the color (RGB) and the false means if It's clickable or not. If It's set to true, people will be able to click it.
+The first strings are the name, the numbers are the RGB color and false bool is not clickable (If you want it clickable, set it to true).
